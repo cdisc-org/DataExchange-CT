@@ -3,5 +3,5 @@ This repository contains files related to the Controlled Terminology as supporte
 Files:
  - examples - example CT-XML files
  - schema - TC-XML Schema files
- - stylesheet - XSL stytesheet to convert CT-XML to HTML
+ - stylesheets - XSL stytesheet to convert CT-XML to HTML
      
