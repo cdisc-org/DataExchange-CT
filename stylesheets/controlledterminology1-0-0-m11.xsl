@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
     xmlns:odm="http://www.cdisc.org/ns/odm/v1.3"
     xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
-    xmlns:ich="http://www.ich.org/ns/m11/v1.0"
+    xmlns:ich="http://ncicb.nci.nih.gov/xml/odm/EVS/ICH"
     xmlns:xalan="http://xml.apache.org/xalan">
     
     <xsl:output method="html" indent="yes" xalan:indent-amount="2" 

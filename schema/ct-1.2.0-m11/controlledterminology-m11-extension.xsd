@@ -2,10 +2,14 @@
 <xs:schema targetNamespace="http://www.cdisc.org/ns/odm/v1.3" 
            xmlns="http://www.cdisc.org/ns/odm/v1.3"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:ich="http://www.ich.org/ns/m11/v1.0" 
+           xmlns:ich="http://ncicb.nci.nih.gov/xml/odm/EVS/ICH" 
            elementFormDefault="qualified" attributeFormDefault="unqualified">
            
-  <xs:import namespace="http://www.ich.org/ns/m11/v1.0" schemaLocation="m11-ns.xsd"/>
+  <!--
+      ICH M11 controlled-terminology-m11-extension schema
+  -->
+
+  <xs:import namespace="http://ncicb.nci.nih.gov/xml/odm/EVS/ICH" schemaLocation="controlledterminology-m11-ns.xsd"/>
       
   <xs:redefine schemaLocation="../ct-1.2.0/controlledterminology-extension.xsd">
 
