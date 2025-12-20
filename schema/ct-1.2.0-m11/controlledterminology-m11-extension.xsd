@@ -16,6 +16,7 @@
     <xs:group name="CodeListElementExtension">
          <xs:sequence>
            <xs:group ref="CodeListElementExtension"/>
+           <xs:element ref="ich:ICHPreferredTerm" minOccurs="0" maxOccurs="1"/>
            <xs:element ref="ich:ICHSubmissionValue" minOccurs="0" maxOccurs="1"/>
            <xs:element ref="ich:ICHSynonym" minOccurs="0" maxOccurs="unbounded"/>
          </xs:sequence>

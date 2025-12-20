@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:ich="http://ncicb.nci.nih.gov/xml/odm/EVS/ICH" FileType="Snapshot" FileOID="ICH_CT.M11.2025-08-04" Granularity="Metadata" CreationDateTime="2025-08-05T02:09:57" AsOfDateTime="2025-08-04T00:00:00" ODMVersion="1.3.2" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2025-08-04" nciodm:Context="Other" nciodm:ControlledTerminologyVersion="1.2.0">
-    <Study OID="ICH_CT.M11.2025-08-04">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:ich="http://ncicb.nci.nih.gov/xml/odm/EVS/ICH"  FileType="Snapshot" FileOID="ICH_CT.M11.2025-12-19" Granularity="Metadata" CreationDateTime="2025-12-15T22:14:13" AsOfDateTime="2025-12-19T00:00:00" ODMVersion="1.3.2" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2025-12-19" nciodm:Context="Other" nciodm:ControlledTerminologyVersion="1.2.0">
+    <Study OID="ICH_CT.M11.2025-12-19">
         <GlobalVariables>
             <StudyName>ICH M11 Controlled Terminology</StudyName>
-            <StudyDescription>ICH M11 Controlled Terminology, 2025-08-04</StudyDescription>
+            <StudyDescription>ICH M11 Controlled Terminology, 2025-12-19</StudyDescription>
             <ProtocolName>ICH M11 Controlled Terminology</ProtocolName>
         </GlobalVariables>
-        <MetaDataVersion OID="ICH_CT_MetaDataVersion.M11.2025-08-04" Name="ICH M11 Controlled Terminology" Description="ICH M11 Controlled Terminology, 2025-08-04">
-            <CodeList OID="CL.C217274.Amendment Details Statement Response Terminology" Name="Amendment Details Statement Response Terminology" DataType="text" nciodm:ExtCodeID="C217274">
+        <MetaDataVersion OID="ICH_CT_MetaDataVersion.M11.2025-12-19" Name="ICH M11 Controlled Terminology" Description="ICH M11 Controlled Terminology, 2025-12-19">
+            <CodeList OID="CL.C217274.Amendment Details Statement Response Terminology" Name="Amendment Details Statement Response Terminology" DataType="text" nciodm:ExtCodeID="C217274" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the amendment details statement responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
-                <EnumeratedItem CodedValue="Not applicable. This protocol has not been amended." nciodm:ExtCodeID="C218485">
-                    <ich:ICHDefinition>Not applicable. This protocol has not been amended.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Not Applicable, Protocol Not Amended</nciodm:PreferredTerm>
-                </EnumeratedItem>
                 <EnumeratedItem CodedValue="This is the first protocol amendment." nciodm:ExtCodeID="C218486">
                     <ich:ICHDefinition>This is the first protocol amendment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>First Protocol Amendment</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="This protocol has been amended previously. Details of prior amendments are presented in Section 12.3 Prior Protocol Amendments." nciodm:ExtCodeID="C218487">
-                    <ich:ICHDefinition>This protocol has been amended previously. Details of prior amendments are presented in Section 12.3 Prior Protocol Amendments.</ich:ICHDefinition>
+                <EnumeratedItem CodedValue="This protocol has been amended previously. Details of prior amendments are presented in Section 12.3 Prior Protocol Amendment(s)." nciodm:ExtCodeID="C218487">
+                    <ich:ICHDefinition>This protocol has been amended previously. Details of prior amendments are presented in Section 12.3 Prior Protocol Amendment(s).</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Previously Amended, Details Presented</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="This protocol has been amended previously. The Protocol Amendment Summary of Changes for the current amendment is located directly before the Table of Contents. Prior amendment(s) to this protocol are listed in the table below, beginning with the most recent." nciodm:ExtCodeID="C218488">
                     <ich:ICHDefinition>This protocol has been amended previously. The Protocol Amendment Summary of Changes for the current amendment is located directly before the Table of Contents. Prior amendment(s) to this protocol are listed in the table below, beginning with the most recent.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Previously Amended See Summary of Changes Before the Table of Contents</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Amendment Details Statement Response Terminology</ich:ICHSubmissionValue>
+                <EnumeratedItem CodedValue="This protocol has not been amended." nciodm:ExtCodeID="C218485">
+                    <ich:ICHDefinition>This protocol has not been amended.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Protocol Not Amended</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <ich:ICHPreferredTerm>Amendment Details Statement Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Amendment Details Statement Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Amendment Details Statement Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217275.Amendment Scope Enrollment Description Response Terminology" Name="Amendment Scope Enrollment Description Response Terminology" DataType="text" nciodm:ExtCodeID="C217275">
+            <CodeList OID="CL.C217275.Amendment Scope Enrollment Description Response Terminology" Name="Amendment Scope Enrollment Description Response Terminology" DataType="text" nciodm:ExtCodeID="C217275" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the amendment scope enrollment description responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -48,11 +48,11 @@
                     <ich:ICHDefinition>Covering or affecting a portion of the system.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Locally</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Amendment Scope Enrollment Description Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Amendment Scope Enrollment Description Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Amendment Scope Enrollment Description Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Amendment Scope Enrollment Description Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217047.Amendment Scope Response Terminology" Name="Amendment Scope Response Terminology" DataType="text" nciodm:ExtCodeID="C217047">
+            <CodeList OID="CL.C217047.Amendment Scope Response Terminology" Name="Amendment Scope Response Terminology" DataType="text" nciodm:ExtCodeID="C217047" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the amendment scope value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -64,16 +64,15 @@
                     <ich:ICHDefinition>Covering or affecting a portion of the system.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Not Global</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Amendment Scope Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Amendment Scope Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Amendment Scope Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Amendment Scope Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217279.Control Type Response Terminology" Name="Control Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217279">
+            <CodeList OID="CL.C217279.Control Type Response Terminology" Name="Control Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217279" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the control type responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Active Comparator" nciodm:ExtCodeID="C49649">
-                    <ich:ICHSynonym>Active Control</ich:ICHSynonym>
                     <ich:ICHDefinition>A type of control, which has a demonstrated effect, administered as a comparator to participants in a clinical trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Active Control</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -94,8 +93,6 @@
                     <nciodm:PreferredTerm>Uncontrolled Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Placebo" nciodm:ExtCodeID="C49648">
-                    <ich:ICHSynonym>Placebo</ich:ICHSynonym>
-                    <ich:ICHSynonym>Placebo Control</ich:ICHSynonym>
                     <ich:ICHDefinition>An inactive, identical-appearing drug or treatment that does not contain the test product.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Placebo Control</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -103,11 +100,11 @@
                     <ich:ICHDefinition>A type of negative control in which a procedure is performed that mimics the procedure under study but does not include investigational processes or components.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Sham Control</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Control Type Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Control Type Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Control Type Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Control Type Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217342.ICH M11 Section 1 Terminology" Name="ICH M11 Section 1 Terminology" DataType="text" nciodm:ExtCodeID="C217342">
+            <CodeList OID="CL.C217342.ICH M11 Section 1 Terminology" Name="ICH M11 Section 1 Terminology" DataType="text" nciodm:ExtCodeID="C217342" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 1 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -116,7 +113,7 @@
                     <nciodm:PreferredTerm>Adaptive Trial Design Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Additional Description of Duration" nciodm:ExtCodeID="C218838">
-                    <ich:ICHDefinition>A narrative providing additional details about the duration of an participant&apos;s use of a trial intervention or their planned participation time in the trial.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A narrative providing additional details about the duration of a participant&apos;s use of a trial intervention or their planned participation time in the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Additional Description of Duration</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Alternate Description of Planned Duration of Trial Intervention" nciodm:ExtCodeID="C218714">
@@ -128,7 +125,6 @@
                     <nciodm:PreferredTerm>Alternate Description of Planned Duration of Trial Participation</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Blinded Roles" nciodm:ExtCodeID="C218709">
-                    <ich:ICHSynonym>Blinding roles</ich:ICHSynonym>
                     <ich:ICHDefinition>An identifying designation assigned to a blinded individual within a clinical trial that corresponds with their function.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Blinding Role</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -145,7 +141,6 @@
                     <nciodm:PreferredTerm>Independent Oversight Committee</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="INN" nciodm:ExtCodeID="C142585">
-                    <ich:ICHSynonym>International Nonproprietary Name</ich:ICHSynonym>
                     <ich:ICHDefinition>A unique name that is globally recognised and public property, which identifies pharmaceutical substances or active pharmaceutical ingredients.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>International Nonproprietary Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -154,7 +149,6 @@
                     <nciodm:PreferredTerm>Intervention Assignment Method</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Intervention Model" nciodm:ExtCodeID="C98746">
-                    <ich:ICHSynonym>Intervention Model</ich:ICHSynonym>
                     <ich:ICHDefinition>The overall design configuration for assigning intervention to participants.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Intervention Model</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -171,9 +165,7 @@
                     <nciodm:PreferredTerm>Planned Minimum Age of Subjects</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Nonproprietary Name(s)" nciodm:ExtCodeID="C97054">
-                    <ich:ICHSynonym>Generic Name</ich:ICHSynonym>
-                    <ich:ICHSynonym>Public Name</ich:ICHSynonym>
-                    <ich:ICHDefinition>Drug name that is not protected by a trademark, usually descriptive of its chemical structure, and sometimes a public name. (ICH E2B)</ich:ICHDefinition>
+                    <ich:ICHDefinition>Drug name that is not protected by a trademark, usually descriptive of its chemical structure, and sometimes a public name.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Generic Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Number of Arms" nciodm:ExtCodeID="C98771">
@@ -188,6 +180,10 @@
                     <ich:ICHDefinition>A committee that is different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Other Committee</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="Other Intervention Assignment Method" nciodm:ExtCodeID="C223138">
+                    <ich:ICHDefinition>Description of any intervention assignment method that is different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Other Intervention Assignment Method</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Population Diagnosis or Condition" nciodm:ExtCodeID="C112038">
                     <ich:ICHDefinition>A description of the condition, disease or disorder that the clinical trial is intended to investigate or address.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Indication</nciodm:PreferredTerm>
@@ -200,7 +196,11 @@
                     <ich:ICHDefinition>A descriptive summary of the primary and secondary objectives and their associated estimands related to the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Primary and Secondary Objectives and Estimands Summary</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Randomly Assigned to Trial Intervention/Enrolled" nciodm:ExtCodeID="C218711">
+                <EnumeratedItem CodedValue="Randomisation Type" nciodm:ExtCodeID="C223137">
+                    <ich:ICHDefinition>A characterisation or classification of the randomisation used to assign trial participants to treatment or control groups.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Randomization Type</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="randomly assigned to trial intervention/enrolled" nciodm:ExtCodeID="C218711">
                     <ich:ICHDefinition>The target or maximum number of participants who have been randomly assigned to the trial intervention or enrolled in the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Number of Participants Randomly Assigned to Trial Intervention or Enrolled</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -220,23 +220,27 @@
                     <ich:ICHDefinition>An indication as to whether the trial is taking place in one or more countries.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Site Geographic Scope Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="Stratification Indicator" nciodm:ExtCodeID="C223136">
+                    <ich:ICHDefinition>An indication as to whether stratification is used as part of the randomisation process.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Stratification Indicator</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Target/Maximum" nciodm:ExtCodeID="C218710">
                     <ich:ICHDefinition>A characterisation or classification of the trial participant numbers as to whether the numbers reflect a target or maximum.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Participation Number Target or Maximum Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Total Planned Duration of Trial Intervention Unit of Time" nciodm:ExtCodeID="C218713">
+                <EnumeratedItem CodedValue="total planned duration of trial intervention unit of time" nciodm:ExtCodeID="C218713">
                     <ich:ICHDefinition>The unit of time associated with the numeric value for the planned duration of trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Planned Duration of Trial Intervention Unit of Time</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Total Planned Duration of Trial Intervention" nciodm:ExtCodeID="C218712">
+                <EnumeratedItem CodedValue="total planned duration of trial intervention" nciodm:ExtCodeID="C218712">
                     <ich:ICHDefinition>The numeric value for the planned duration of trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Planned Duration of Trial Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Total Planned Duration of Trial Participation Unit of Time" nciodm:ExtCodeID="C218716">
+                <EnumeratedItem CodedValue="total planned duration of trial participation unit of time" nciodm:ExtCodeID="C218716">
                     <ich:ICHDefinition>The unit of time associated with the numeric value for the planned duration of trial participation.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Planned Duration of Trial Participation Unit of Time</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Total Planned Duration of Trial Participation" nciodm:ExtCodeID="C218715">
+                <EnumeratedItem CodedValue="total planned duration of trial participation" nciodm:ExtCodeID="C218715">
                     <ich:ICHDefinition>The numeric value for the planned duration of trial participation.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Planned Duration of Trial Participation</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -252,21 +256,21 @@
                     <ich:ICHDefinition>Those units of time that are routinely used to express the age of a person.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Age Unit</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 1 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 1 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 1 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 1 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217351.ICH M11 Section 10 Terminology" Name="ICH M11 Section 10 Terminology" DataType="text" nciodm:ExtCodeID="C217351">
+            <CodeList OID="CL.C217351.ICH M11 Section 10 Terminology" Name="ICH M11 Section 10 Terminology" DataType="text" nciodm:ExtCodeID="C217351" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 10 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
+                <EnumeratedItem CodedValue="Analyses Associated with the Exploratory Objective(s)" nciodm:ExtCodeID="C218807">
+                    <ich:ICHDefinition>A description of the statistical model, hypothesis, and methods of analyses for each exploratory objective within the trial.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Exploratory Objective Statistical Analysis Method</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Analyses of Demographics and Other Baseline Variables" nciodm:ExtCodeID="C218802">
                     <ich:ICHDefinition>A description of analyses relevant to variables at baseline, for example demographics, related to the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Description of Trial Baseline Variable Analysis</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="Analysis Associated with Exploratory Objectives(s)" nciodm:ExtCodeID="C218807">
-                    <ich:ICHDefinition>A description of the statistical model, hypothesis, and methods of analyses for each exploratory objective within the trial.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Exploratory Objective Statistical Analysis Method</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Analysis Sets" nciodm:ExtCodeID="C218801">
                     <ich:ICHDefinition>A description of the set of participants whose data are to be included in the analyses.</ich:ICHDefinition>
@@ -324,11 +328,11 @@
                     <ich:ICHDefinition>A description of the analyses that are conducted in addition to the main and sensitivity analysis with the intent to provide additional insights into the understanding of the treatment effect.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Treatment Effect Supplementary Analysis</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 10 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 10 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 10 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 10 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217352.ICH M11 Section 11 Terminology" Name="ICH M11 Section 11 Terminology" DataType="text" nciodm:ExtCodeID="C217352">
+            <CodeList OID="CL.C217352.ICH M11 Section 11 Terminology" Name="ICH M11 Section 11 Terminology" DataType="text" nciodm:ExtCodeID="C217352" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 11 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -368,9 +372,9 @@
                     <ich:ICHDefinition>The procedure by which informed consent is obtained and documented by means of a written, signed, and dated informed consent form. This process may include obtaining assent from participants with legally authorised representatives.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Informed Consent Process</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Identification of Source Data" nciodm:ExtCodeID="C125442">
-                    <ich:ICHDefinition>A description of how trial-related source data will be identified.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Clinical Trial Source Data Documentation</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Identification of Source Records" nciodm:ExtCodeID="C222675">
+                    <ich:ICHDefinition>A description of how trial-related source records will be identified.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Identification of Source Records Description</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Informed Consent for Rescreening" nciodm:ExtCodeID="C218817">
                     <ich:ICHDefinition>A description of the consent requirements for participants in the event of screen failure and rescreening.</ich:ICHDefinition>
@@ -384,9 +388,9 @@
                     <ich:ICHDefinition>A concise summary of the arrangements for participants insurance and indemnity as required by the applicable regulatory body.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Insurance and Indemnity Summary</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Investigator Expectations for Source Data" nciodm:ExtCodeID="C218825">
-                    <ich:ICHDefinition>A description of the obligations of the investigator with respect to maintaining and ensuring availability of the source data.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Investigator Expectations for Source Data</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Investigator Expectations for Source Records" nciodm:ExtCodeID="C218825">
+                    <ich:ICHDefinition>A description of the obligations of the investigator with respect to maintaining and ensuring availability of the source records.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Investigator Expectations for Source Records</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Investigator Responsibilities" nciodm:ExtCodeID="C218813">
                     <ich:ICHDefinition>A description of the obligations of the investigator with respect to the trial.</ich:ICHDefinition>
@@ -408,35 +412,43 @@
                     <ich:ICHDefinition>A description of how potential risks and critical to quality factors associated with the trial will be identified and handled.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Risk-Based Quality Management</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Source Data Introduction" nciodm:ExtCodeID="C218824">
-                    <ich:ICHDefinition>A description of trial-related source data including the importance of source data maintenance and expectations for data traceability.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Trial-Related Source Data Description</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Source Records Introduction" nciodm:ExtCodeID="C218824">
+                    <ich:ICHDefinition>A description of trial-related source records including the importance of source record maintenance and expectations for data traceability.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Trial-Related Source Records Description</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sponsor Responsibilities" nciodm:ExtCodeID="C218814">
                     <ich:ICHDefinition>A description of the obligations of the sponsor with respect to the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Sponsor Responsibilities</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Trial Monitor Expectations for Source Data" nciodm:ExtCodeID="C218826">
-                    <ich:ICHDefinition>A description of the obligations of the trial monitor with respect to maintaining and ensuring availability of the source data.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Trial Monitor Expectations for Source Data</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Trial Monitor Expectations for Source Records" nciodm:ExtCodeID="C218826">
+                    <ich:ICHDefinition>A description of the obligations of the trial monitor with respect to maintaining and ensuring availability of the source records.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Trial Monitor Expectations for Source Records</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Trial Oversight" nciodm:ExtCodeID="C218812">
                     <ich:ICHDefinition>A description of the planned processes and procedures to govern and conduct a clinical trial in order to protect the rights, safety and welfare of the trial participants.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Oversight Procedure Description</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 11 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 11 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 11 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 11 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217353.ICH M11 Section 12 Terminology" Name="ICH M11 Section 12 Terminology" DataType="text" nciodm:ExtCodeID="C217353">
+            <CodeList OID="CL.C217353.ICH M11 Section 12 Terminology" Name="ICH M11 Section 12 Terminology" DataType="text" nciodm:ExtCodeID="C217353" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 12 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
+                <EnumeratedItem CodedValue="Additional Appendices" nciodm:ExtCodeID="C220640">
+                    <ich:ICHDefinition>Extra or supplementary appendices added to the end of a document.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Additional Document Appendices</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Amendment Identifier" nciodm:ExtCodeID="C218477">
                     <ich:ICHDefinition>A sequence of characters used to uniquely identify a protocol amendment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Amendment Identifier</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Approximate Enrolled At Time of Sponsor Approval" nciodm:ExtCodeID="C218478">
+                <EnumeratedItem CodedValue="Amendment Scope Enrollment Description" nciodm:ExtCodeID="C218695">
+                    <ich:ICHDefinition>The enrollment description as to whether the amendment scope applies globally, locally, or per cohort across the trial.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Amendment Scope Enrollment Description</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="Approximately &lt;#/%&gt; enrolled" nciodm:ExtCodeID="C218478">
                     <ich:ICHDefinition>The value (expressed either numerically or as a percentage) for the estimated number of participants enrolled at the time of the protocol amendment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Approximate Participant Enrollment At Time of Sponsor Approval</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -452,7 +464,7 @@
                     <ich:ICHDefinition>A sequence of characters used to identify and/or name a country or region.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Country and/or Region Identifier</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Country/Region-Specific Protocol Clarifications" nciodm:ExtCodeID="C218834">
+                <EnumeratedItem CodedValue="Country/Region Specific Protocol Clarifications" nciodm:ExtCodeID="C218834">
                     <ich:ICHDefinition>A description of any country or region-specific clarifications related to a protocol item.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Country and/or Region-Specific Protocol Clarifications Description</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -468,23 +480,23 @@
                     <ich:ICHDefinition>An indication as to whether the protocol has not been amended, is the first protocol amendment, or a statement that the protocol has been amended previously.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Prior Protocol Amendment Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Section # and Name of Change" nciodm:ExtCodeID="C218479">
+                <EnumeratedItem CodedValue="Section # and Name" nciodm:ExtCodeID="C218479">
                     <ich:ICHDefinition>The protocol section number and name containing the change introduced in the current or prior version of the protocol.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Change Section Number and Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Specify Alternative Location" nciodm:ExtCodeID="C218836">
+                <EnumeratedItem CodedValue="specify alternative location" nciodm:ExtCodeID="C218836">
                     <ich:ICHDefinition>The physical or virtual location of the overview of changes from each prior amendment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Alternative Location of Protocol Changes</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sponsor Approval Date" nciodm:ExtCodeID="C132352">
-                    <ich:ICHDefinition>The date that the sponsor approved the current version of the protocol.</ich:ICHDefinition>
+                    <ich:ICHDefinition>The date that the sponsor approved a version of the protocol.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Approval by Sponsor Date</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 12 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 12 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 12 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 12 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217354.ICH M11 Section 13 Terminology" Name="ICH M11 Section 13 Terminology" DataType="text" nciodm:ExtCodeID="C217354">
+            <CodeList OID="CL.C217354.ICH M11 Section 13 Terminology" Name="ICH M11 Section 13 Terminology" DataType="text" nciodm:ExtCodeID="C217354" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 13 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -492,11 +504,11 @@
                     <ich:ICHDefinition>A list of terms with their abbreviations and/or definitions.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Glossary of Terms and Abbreviations</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 13 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 13 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 13 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 13 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217355.ICH M11 Section 14 Terminology" Name="ICH M11 Section 14 Terminology" DataType="text" nciodm:ExtCodeID="C217355">
+            <CodeList OID="CL.C217355.ICH M11 Section 14 Terminology" Name="ICH M11 Section 14 Terminology" DataType="text" nciodm:ExtCodeID="C217355" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 14 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -504,11 +516,11 @@
                     <ich:ICHDefinition>The curated list of sources that are cited within the reference section of the document.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Reference List</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 14 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 14 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 14 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 14 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217343.ICH M11 Section 2 Terminology" Name="ICH M11 Section 2 Terminology" DataType="text" nciodm:ExtCodeID="C217343">
+            <CodeList OID="CL.C217343.ICH M11 Section 2 Terminology" Name="ICH M11 Section 2 Terminology" DataType="text" nciodm:ExtCodeID="C217343" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 2 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -536,11 +548,11 @@
                     <ich:ICHDefinition>A description of the potential risks associated with the trial procedures and mitigation strategies to be employed within the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial-specific Procedure Risks and Mitigation Strategy Description</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 2 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 2 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 2 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 2 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217344.ICH M11 Section 3 Terminology" Name="ICH M11 Section 3 Terminology" DataType="text" nciodm:ExtCodeID="C217344">
+            <CodeList OID="CL.C217344.ICH M11 Section 3 Terminology" Name="ICH M11 Section 3 Terminology" DataType="text" nciodm:ExtCodeID="C217344" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 3 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -564,19 +576,15 @@
                     <ich:ICHDefinition>The population of patients targeted by the clinical question. This will be represented by the entire trial population, a subgroup defined by a particular characteristic measured at baseline, or a principal stratum defined by the occurrence (or non-occurrence, depending on context) of a specific intercurrent event.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Study Population</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Population-Level Summary" nciodm:ExtCodeID="C188853">
+                <EnumeratedItem CodedValue="Population-level Summary" nciodm:ExtCodeID="C188853">
                     <ich:ICHDefinition>Population level summary for the clinical endpoint of interest, which provides a basis for comparison between treatment conditions.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Population-Level Summary</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Primary Objective" nciodm:ExtCodeID="C85826">
-                    <ich:ICHSynonym>Study Primary Objective</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Primary Objective</ich:ICHSynonym>
                     <ich:ICHDefinition>The principle reason for performing a study in terms of the scientific questions to be answered by the analysis of data collected during the study.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Primary Objective</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Secondary Objective" nciodm:ExtCodeID="C85827">
-                    <ich:ICHSynonym>Study Secondary Objective</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Secondary Objective</ich:ICHSynonym>
                     <ich:ICHDefinition>The secondary reason for performing a study in terms of the scientific questions to be answered by the analysis of data collected during the study.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Secondary Objective</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -584,15 +592,15 @@
                     <ich:ICHDefinition>The treatment condition of interest and, as appropriate, the alternative treatment condition to which comparison will be made (referred to as &quot;treatment&quot; through the remainder of this document). These might be individual interventions, combinations of interventions administered concurrently, e.g. as add-on to standard of care, or might consist of an overall regimen involving a complex sequence of interventions.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Therapeutic Procedure</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 3 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 3 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 3 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 3 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217345.ICH M11 Section 4 Terminology" Name="ICH M11 Section 4 Terminology" DataType="text" nciodm:ExtCodeID="C217345">
+            <CodeList OID="CL.C217345.ICH M11 Section 4 Terminology" Name="ICH M11 Section 4 Terminology" DataType="text" nciodm:ExtCodeID="C217345" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 4 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
-                <EnumeratedItem CodedValue="Access to Trial Intervention after End of Trial" nciodm:ExtCodeID="C218738">
+                <EnumeratedItem CodedValue="Access to Trial Intervention After End of Trial" nciodm:ExtCodeID="C218738">
                     <ich:ICHDefinition>A narrative description containing information about whether and how trial participants have access to the trial interventions after the trial ends.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Access to Trial Intervention after End of Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -604,6 +612,10 @@
                     <ich:ICHDefinition>A description of the level of awareness of the study participants and/or personnel to the respective intervention(s) or assessments being observed, received or administered, and the methodology by which study participants or personnel are blinded.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Description of Level and Method of Blinding</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="Description of Method of Assignment to Trial Intervention" nciodm:ExtCodeID="C219658">
+                    <ich:ICHDefinition>A description of the methodology used to assign trial participants to a trial intervention or trial arm.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Description of Method of Assignment to Trial Intervention</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Description of Trial Duration" nciodm:ExtCodeID="C218726">
                     <ich:ICHDefinition>A description of the trial duration.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Description of Trial Duration</nciodm:PreferredTerm>
@@ -611,10 +623,6 @@
                 <EnumeratedItem CodedValue="End of Trial" nciodm:ExtCodeID="C218737">
                     <ich:ICHDefinition>A description containing a concise explanation, any local regulatory requirements and considerations, extensions, follow-up, and analysis for the trial end.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>End of Trial Explanation</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="Method of Assignment to Trial Intervention" nciodm:ExtCodeID="C218475">
-                    <ich:ICHDefinition>The technique used to assign trial participants to a trial intervention or trial arm.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Intervention Assignment Method</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Overall Description of Trial Design and Description of Intervention Model" nciodm:ExtCodeID="C147139">
                     <ich:ICHDefinition>A description summarizing the overall trial design and intervention model.</ich:ICHDefinition>
@@ -637,7 +645,7 @@
                     <nciodm:PreferredTerm>Rationale for Trial Estimand</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Rationale for Interim Analysis" nciodm:ExtCodeID="C218734">
-                    <ich:ICHDefinition>An explanation for the analysis comparing intervention groups at any time before the formal completion of the trial, usually before recruitment is complete. (CDISC Glossary)</ich:ICHDefinition>
+                    <ich:ICHDefinition>An explanation for the analysis comparing intervention groups at any time before the formal completion of the trial, usually before recruitment is complete.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Rationale for Interim Analysis</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Rationale for Intervention Model" nciodm:ExtCodeID="C215629">
@@ -664,11 +672,11 @@
                     <ich:ICHDefinition>A criterion that, when met by the accumulating data, indicates that the trial can or should be stopped early to avoid putting participants at risk unnecessarily or because the intervention effect is so great that further data collection is unnecessary.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Stopping Rules</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 4 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 4 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 4 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 4 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217346.ICH M11 Section 5 Terminology" Name="ICH M11 Section 5 Terminology" DataType="text" nciodm:ExtCodeID="C217346">
+            <CodeList OID="CL.C217346.ICH M11 Section 5 Terminology" Name="ICH M11 Section 5 Terminology" DataType="text" nciodm:ExtCodeID="C217346" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 5 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -681,7 +689,7 @@
                     <nciodm:PreferredTerm>Trial Participant Contraception Requirements</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Definitions Related to Childbearing Potential" nciodm:ExtCodeID="C218740">
-                    <ich:ICHDefinition>A concise explanation of the meaning of participants of childbearing potential and non-childbearing potential within the context of a trial, or state not applicable.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A concise explanation of the meaning of participants of childbearing potential and nonchildbearing potential within the context of a trial, or state not applicable.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Definitions Related to Trial Participant Childbearing Potential</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Description of Trial Population and Rationale" nciodm:ExtCodeID="C218739">
@@ -720,11 +728,11 @@
                     <ich:ICHDefinition>The potential participant who does not meet eligibility (inclusion/exclusion) criteria during the screening period.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Screen Failure</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 5 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 5 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 5 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 5 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217347.ICH M11 Section 6 Terminology" Name="ICH M11 Section 6 Terminology" DataType="text" nciodm:ExtCodeID="C217347">
+            <CodeList OID="CL.C217347.ICH M11 Section 6 Terminology" Name="ICH M11 Section 6 Terminology" DataType="text" nciodm:ExtCodeID="C217347" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 6 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -740,23 +748,23 @@
                     <ich:ICHDefinition>A characterisation or classification of the study arm.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Study Arm Type</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Background Trial Interventions" nciodm:ExtCodeID="C165822">
-                    <ich:ICHDefinition>Medicinal products that are administered to each clinical trial participant, regardless of randomization group, a) to treat the indication which is the object of the study, or b) required in the protocol as part of standard care for a condition that is not the indication under investigation, and is relevant for the clinical trial design. (CDISC Glossary)</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Background Treatment</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Background Trial Intervention" nciodm:ExtCodeID="C222329">
+                    <ich:ICHDefinition>Description of medicinal products that are administered to each clinical trial participant, regardless of randomisation group, a) to treat the indication which is the object of the study, or b) required in the protocol as part of standard care for a condition that is not the indication under investigation, and is relevant for the clinical trial design. (CDISC Glossary)</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Description of Background Trial Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Concomitant Therapy" nciodm:ExtCodeID="C53630">
-                    <ich:ICHDefinition>Any pharmaceutical agent, other than the trial interventions, that is administered to or used by the participant prior to or during a specified time period.</ich:ICHDefinition>
+                    <ich:ICHDefinition>Description of any pharmaceutical agent, other than the trial interventions, that is administered to or used by the participant prior to or during a specified time period.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Concomitant Therapy</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Description of Investigational Trial Intervention" nciodm:ExtCodeID="C218751">
                     <ich:ICHDefinition>A description of the investigational trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Description of Investigational Trial Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Description of Noninvestigational Trial Interventions" nciodm:ExtCodeID="C218759">
+                <EnumeratedItem CodedValue="Description of Noninvestigational Trial Intervention" nciodm:ExtCodeID="C218759">
                     <ich:ICHDefinition>A description of the noninvestigational trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Description of Noninvestigational Trial Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Description of the Overview of Trial intervention or a Heading for the Optional Table" nciodm:ExtCodeID="C218747">
+                <EnumeratedItem CodedValue="description of the overview of trial interventions or a heading for the optional table" nciodm:ExtCodeID="C218747">
                     <ich:ICHDefinition>A free text description of the trial intervention; alternatively can be used as a heading for a table containing information about the trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Intervention Overview or Informational Table Header</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -773,7 +781,7 @@
                     <nciodm:PreferredTerm>Emergency Unblinding at the Site</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="IMP or NIMP" nciodm:ExtCodeID="C218749">
-                    <ich:ICHDefinition>An indication as to whether the investigational intervention is an investigational medicinal product or an auxiliary medicinal product.</ich:ICHDefinition>
+                    <ich:ICHDefinition>An indication as to whether the trial intervention is an investigational medicinal product or an auxiliary medicinal product.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>IMP or NIMP Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Intervention Name" nciodm:ExtCodeID="C177930">
@@ -805,8 +813,8 @@
                     <nciodm:PreferredTerm>Study Blinding Procedure</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Other Noninvestigational Trial Intervention" nciodm:ExtCodeID="C218761">
-                    <ich:ICHDefinition>A noninvestigational intervention that is different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Other Noninvestigational Trial Intervention</nciodm:PreferredTerm>
+                    <ich:ICHDefinition>Description of any noninvestigational intervention that is different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Description of Other Noninvestigational Trial Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Participant Assignment to Investigational Trial Intervention" nciodm:ExtCodeID="C218756">
                     <ich:ICHDefinition>The technique used to assign trial participants to a trial arm.</ich:ICHDefinition>
@@ -840,9 +848,9 @@
                     <ich:ICHDefinition>A description of the schedule and periodicity of a treatment or vaccination regimen.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Treatment Regimen</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Rescue Therapy" nciodm:ExtCodeID="C218760">
-                    <ich:ICHDefinition>Any rescue medications, treatments, and/or procedures identified in the protocol as those that may be administered to participants when the efficacy of the investigational intervention is not satisfactory, its effect is too great and is likely to cause a hazard to the participant, or to manage an emergency situation. (CDISC Glossary)</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Rescue Therapy</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Rescue Therapy" nciodm:ExtCodeID="C222330">
+                    <ich:ICHDefinition>Description of any rescue medications, treatments, and/or procedures identified in the protocol as those that may be administered to participants when the efficacy of the investigational intervention is not satisfactory, its effect is too great and is likely to cause a hazard to the participant, or to manage an emergency situation.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Description of Rescue Therapy</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Route of Administration" nciodm:ExtCodeID="C38114">
                     <ich:ICHDefinition>Path by which the pharmaceutical product is taken into or makes contact with the body.</ich:ICHDefinition>
@@ -860,11 +868,11 @@
                     <ich:ICHDefinition>The reason or intention for the use of the trial intervention within the trial arm.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Intervention Intent</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 6 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 6 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 6 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 6 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217348.ICH M11 Section 7 Terminology" Name="ICH M11 Section 7 Terminology" DataType="text" nciodm:ExtCodeID="C217348">
+            <CodeList OID="CL.C217348.ICH M11 Section 7 Terminology" Name="ICH M11 Section 7 Terminology" DataType="text" nciodm:ExtCodeID="C217348" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 7 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -888,11 +896,11 @@
                     <ich:ICHDefinition>The requirements that must be met in order to temporarily discontinue the administration of trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Requirements for Temporary Discontinuation of Trial Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 7 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 7 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 7 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 7 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217349.ICH M11 Section 8 Terminology" Name="ICH M11 Section 8 Terminology" DataType="text" nciodm:ExtCodeID="C217349">
+            <CodeList OID="CL.C217349.ICH M11 Section 8 Terminology" Name="ICH M11 Section 8 Terminology" DataType="text" nciodm:ExtCodeID="C217349" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 8 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -912,9 +920,9 @@
                     <ich:ICHDefinition>The procedures for the recordings produced by the variations in electrical potential caused by electrical activity of the heart muscle and detected at the body surface, as a method for studying the action of the heart muscle.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Electrocardiogram</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Genetics and Pharmacogenomics" nciodm:ExtCodeID="C218777">
-                    <ich:ICHDefinition>A narrative description containing information about the collection, use, and retention of biospecimens, and their use in genetic and pharmacogenomic biomarker assessments within the trial.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Genetics and Pharmacogenomics Assessment</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Genetics, Genomics, Pharmacogenetics and Pharmacogenomics" nciodm:ExtCodeID="C218777">
+                    <ich:ICHDefinition>A narrative description containing information about the collection, use, and retention of biospecimens, and their use in genetic, genomic, pharmacogenetic and pharmacogenomic biomarker assessments within the trial.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Genetics, Genomics, Pharmacogenetics and Pharmacogenomics Assessment</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Immunogenicity Assessments" nciodm:ExtCodeID="C218780">
                     <ich:ICHDefinition>A narrative description containing information about the collection, use, and retention of biospecimens, and their use in immunogenicity assessments within the trial.</ich:ICHDefinition>
@@ -964,16 +972,15 @@
                     <ich:ICHDefinition>The procedures for measurements of the body&apos;s basic functions that provide insight into the health status of the person.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Vital Signs</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 8 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 8 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 8 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 8 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217350.ICH M11 Section 9 Terminology" Name="ICH M11 Section 9 Terminology" DataType="text" nciodm:ExtCodeID="C217350">
+            <CodeList OID="CL.C217350.ICH M11 Section 9 Terminology" Name="ICH M11 Section 9 Terminology" DataType="text" nciodm:ExtCodeID="C217350" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in section 9 of the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Adverse Events of Special Interest" nciodm:ExtCodeID="C217358">
-                    <ich:ICHSynonym>AESI</ich:ICHSynonym>
                     <ich:ICHDefinition>A description of the processes and procedures used to define, measure, confirm, and report the occurrence of adverse events that are of special interest to the specific trial, or state not applicable.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Adverse Event of Special Interest</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1025,6 +1032,10 @@
                     <ich:ICHDefinition>A description of the technique by which trial related events, such as adverse events, serious adverse events, product complaints, medical device product complaints, and pregnancy and postpartum events, are reported to the sponsor and/or regulatory authority.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Event Reporting Method</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="Other Event Type" nciodm:ExtCodeID="C222263">
+                    <ich:ICHDefinition>An event type that is different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Other Trial-Related Safety Event Type</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Participants Who Become Pregnant During the Trial" nciodm:ExtCodeID="C218798">
                     <ich:ICHDefinition>A description of the processes and procedures used to collect pregnancy data for a trial participant who becomes pregnant while the participant is in the trial, as well as data collection about the foetus, neonate, infant, or child.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Participants Who Become Pregnant During the Trial Data Collection</nciodm:PreferredTerm>
@@ -1069,11 +1080,11 @@
                     <ich:ICHDefinition>A description of the timing window between trial related events and their reporting to the sponsor or designee.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Timing Description for Reporting to Sponsor or Designee</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section 9 Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section 9 Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section 9 Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section 9 Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217357.ICH M11 Section Amendment Details Terminology" Name="ICH M11 Section Amendment Details Terminology" DataType="text" nciodm:ExtCodeID="C217357">
+            <CodeList OID="CL.C217357.ICH M11 Section Amendment Details Terminology" Name="ICH M11 Section Amendment Details Terminology" DataType="text" nciodm:ExtCodeID="C217357" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in the amendment details section of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1081,7 +1092,7 @@
                     <ich:ICHDefinition>A written message within the study protocol that describes the amendment details, especially as to whether the protocol has been amended previously.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Amendment Details</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Amendment Scope Enrollment Description" nciodm:ExtCodeID="C218695">
+                <EnumeratedItem CodedValue="Amendment Scope Enrollment Definition" nciodm:ExtCodeID="C218695">
                     <ich:ICHDefinition>The enrollment description as to whether the amendment scope applies globally, locally, or per cohort across the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Amendment Scope Enrollment Description</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1089,7 +1100,7 @@
                     <ich:ICHDefinition>A short description describing the changes introduced in the current version of the protocol.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Summary</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Approximate Enrolled At Time of Sponsor Approval" nciodm:ExtCodeID="C218478">
+                <EnumeratedItem CodedValue="Approximately &lt;#/%&gt; enrolled" nciodm:ExtCodeID="C218478">
                     <ich:ICHDefinition>The value (expressed either numerically or as a percentage) for the estimated number of participants enrolled at the time of the protocol amendment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Approximate Participant Enrollment At Time of Sponsor Approval</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1125,15 +1136,15 @@
                     <ich:ICHDefinition>Additional rationale for the protocol amendment that is not considered the primary rationale.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Secondary Reason for Protocol Amendment</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Section # and Name of Change" nciodm:ExtCodeID="C218479">
+                <EnumeratedItem CodedValue="Section # and Name" nciodm:ExtCodeID="C218479">
                     <ich:ICHDefinition>The protocol section number and name containing the change introduced in the current or prior version of the protocol.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Change Section Number and Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section Amendment Details Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section Amendment Details Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section Amendment Details Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section Amendment Details Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217356.ICH M11 Section Title Page Terminology" Name="ICH M11 Section Title Page Terminology" DataType="text" nciodm:ExtCodeID="C217356">
+            <CodeList OID="CL.C217356.ICH M11 Section Title Page Terminology" Name="ICH M11 Section Title Page Terminology" DataType="text" nciodm:ExtCodeID="C217356" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology relevant to the data elements in the title page of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1145,9 +1156,9 @@
                     <ich:ICHDefinition>A description as to whether the amendment scope applies globally across the trial.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Amendment Scope Global Applicability Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Approval Date or State Location Where Information Can be Found" nciodm:ExtCodeID="C218691">
-                    <ich:ICHDefinition>The date that the sponsor approved the current or prior version of the protocol, or the physical or virtual location of the date on which the sponsor approved the current or prior version of the protocol, or state location where information can be found.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Protocol Approval Date or Location of Date</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="Approval Date" nciodm:ExtCodeID="C132352">
+                    <ich:ICHDefinition>The date that the sponsor approved a version of the protocol.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Protocol Approval by Sponsor Date</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Co-Sponsor Legal Address" nciodm:ExtCodeID="C218679">
                     <ich:ICHDefinition>The legally registered address of the trial co-sponsor.</ich:ICHDefinition>
@@ -1157,20 +1168,11 @@
                     <ich:ICHDefinition>The literal identifier (i.e., distinctive designation) of the trial co-sponsor.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Co-Sponsor Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="contact information for medical expert (as designated by sponsor) or state location where information can be found" nciodm:ExtCodeID="C218693">
-                    <ich:ICHSynonym>Medical Monitor Contact Information</ich:ICHSynonym>
-                    <ich:ICHDefinition>The contact information for the sponsor&apos;s representative who can advise on specific trial-related medical questions or problems, or state location where information can be found.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Designated Medical Expert Contact Information or Location of Contact Information</nciodm:PreferredTerm>
-                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Country Identifier" nciodm:ExtCodeID="C20108">
                     <ich:ICHDefinition>A sequence of characters used to identify and/or name the country.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Country Code</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Describe Method" nciodm:ExtCodeID="C218692">
-                    <ich:ICHDefinition>The narrative text describing the technique used to approve the protocol.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Protocol Approval Method Description</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="Device Manufacturer Address" nciodm:ExtCodeID="C218683">
+                <EnumeratedItem CodedValue="Device Manufacturer Legal Address" nciodm:ExtCodeID="C218683">
                     <ich:ICHDefinition>The legally registered address of the device manufacturer.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Device Manufacturer Legal Address</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1179,31 +1181,26 @@
                     <nciodm:PreferredTerm>Device Manufacturer Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="EU CT Number" nciodm:ExtCodeID="C218684">
-                    <ich:ICHSynonym>EU Clinical Trial Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial, as assigned by the Clinical Trials Information System (CTIS) of the European Medicines Agency.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>EU Clinical Trial Register Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="FDA IND Number" nciodm:ExtCodeID="C218685">
-                    <ich:ICHSynonym>FDA Investigational New Drug Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial under an Investigational New Drug (IND) application, as assigned by the US Food and Drug Administration.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>US FDA Investigational New Drug Application Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Full Title" nciodm:ExtCodeID="C132346">
-                    <ich:ICHSynonym>Scientific Protocol Title</ich:ICHSynonym>
                     <ich:ICHDefinition>The formal descriptive name for the protocol that contains key elements of the study. (CDISC)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Official Protocol Title</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="IDE Number" nciodm:ExtCodeID="C218686">
-                    <ich:ICHSynonym>FDA Investigational Device Exemption Application Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial under an Investigational Device Exemption (IDE) application, as assigned by the US Food and Drug Administration.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>US FDA Investigational Device Exemption Application Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="jRCT Number" nciodm:ExtCodeID="C218687">
-                    <ich:ICHSynonym>Japan Registry for Clinical Trials Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial, as assigned by the Japan Registry for Clinical Trials (JRCT) of the Ministry of Health, Labour and Welfare (MHLW) in Japan.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Japan Registry for Clinical Trials Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Local Sponsor Address" nciodm:ExtCodeID="C218681">
+                <EnumeratedItem CodedValue="Local Sponsor Legal Address" nciodm:ExtCodeID="C218681">
                     <ich:ICHDefinition>The legally registered address of the sponsor&apos;s legal representative at a geographical region within which the sponsor has no legal presence.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Local Sponsor Legal Address</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1211,20 +1208,20 @@
                     <ich:ICHDefinition>The literal identifier (i.e., distinctive designation) of the sponsor&apos;s legal representative at a geographical region within which the sponsor has no legal presence.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Local Sponsor Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="Medical Expert contact information (as designated by sponsor)" nciodm:ExtCodeID="C218693">
+                    <ich:ICHDefinition>The contact information for the sponsor&apos;s representative who can advise on specific trial-related medical questions or problems.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Designated Medical Expert Contact Information</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="NCT Number" nciodm:ExtCodeID="C172240">
-                    <ich:ICHSynonym>National Clinical Trial Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial, as assigned by the protocol registration and results (PRS) system of the US National Library of Medicine.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Clinicaltrials.gov Identifier</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="NMPA IND Number" nciodm:ExtCodeID="C218688">
-                    <ich:ICHSynonym>NMPA Investigational New Drug Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial under an Investigational New Drug (IND) application, as assigned by the Chinese National Medicinal Products Administration (NMPA).</ich:ICHDefinition>
                     <nciodm:PreferredTerm>NMPA IND Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Nonproprietary Name(s)" nciodm:ExtCodeID="C97054">
-                    <ich:ICHSynonym>Generic Name</ich:ICHSynonym>
-                    <ich:ICHSynonym>Public Name</ich:ICHSynonym>
-                    <ich:ICHDefinition>Drug name that is not protected by a trademark, usually descriptive of its chemical structure, and sometimes a public name. (ICH E2B)</ich:ICHDefinition>
+                    <ich:ICHDefinition>Drug name that is not protected by a trademark, usually descriptive of its chemical structure, and sometimes a public name.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Generic Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Original Protocol Indicator" nciodm:ExtCodeID="C218672">
@@ -1248,7 +1245,6 @@
                     <nciodm:PreferredTerm>Study Site Identifier</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sponsor Confidentiality Statement" nciodm:ExtCodeID="C181236">
-                    <ich:ICHSynonym>Protocol Confidentiality Statement</ich:ICHSynonym>
                     <ich:ICHDefinition>A written message within the study protocol that asserts a statement of non-disclosure, such that information contained within the protocol document may only be shared with authorised parties.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Protocol Confidentiality Statement</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1256,17 +1252,33 @@
                     <ich:ICHDefinition>The legally registered address of the trial sponsor.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Sponsor Legal Address</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Sponsor Name" nciodm:ExtCodeID="C70793">
+                <EnumeratedItem CodedValue="Sponsor Name" nciodm:ExtCodeID="C222495">
                     <ich:ICHDefinition>The literal identifier (i.e., distinctive designation) of the trial sponsor.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Clinical Study Sponsor</nciodm:PreferredTerm>
+                    <nciodm:PreferredTerm>Trial Sponsor Name</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sponsor Protocol Identifier" nciodm:ExtCodeID="C132351">
                     <ich:ICHDefinition>A sequence of characters assigned by the sponsor that uniquely identifies a specific protocol.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Sponsor Protocol Identifier</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="sponsor signatory (e.g., name, title, signature and date)" nciodm:ExtCodeID="C222014">
+                    <ich:ICHDefinition>A block of text containing the name and signature of the sponsor&apos;s signatory, along with the signature date.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Sponsor Signatory</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sponsor&apos;s Investigational Product Code(s)" nciodm:ExtCodeID="C218675">
                     <ich:ICHDefinition>A symbol or combination of symbols that are assigned by the sponsor to uniquely identify an experimental intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Sponsor&apos;s Investigational Product Code</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="state location where Medical Expert contact information can be found" nciodm:ExtCodeID="C222063">
+                    <ich:ICHDefinition>The physical or virtual location of the medical expert (as designated by the sponsor) contact information.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Location of Medical Expert Contact Information</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="State location where sponsor approval information can be found" nciodm:ExtCodeID="C218484">
+                    <ich:ICHDefinition>The physical or virtual location of the date on which the sponsor approved the current version of the protocol.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Location of Sponsor Approval Date</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="state location where sponsor signatory information can be found (e.g., electronic signature)" nciodm:ExtCodeID="C222064">
+                    <ich:ICHDefinition>The physical or virtual location of the sponsor signatory information.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Location of Sponsor Signatory Information</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Trial Acronym" nciodm:ExtCodeID="C94108">
                     <ich:ICHDefinition>Acronym or abbreviation used publicly to identify the clinical trial.</ich:ICHDefinition>
@@ -1276,9 +1288,9 @@
                     <ich:ICHDefinition>A stage in the clinical research and development of a therapy from first-in-human to post-approval clinical trials.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Phase</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Trial Short Title" nciodm:ExtCodeID="C218676">
+                <EnumeratedItem CodedValue="Trial Short Title" nciodm:ExtCodeID="C94105">
                     <ich:ICHDefinition>The short descriptive name for the trial.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Trial Short Title</nciodm:PreferredTerm>
+                    <nciodm:PreferredTerm>Study Protocol Document Version Public Title</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Version Date" nciodm:ExtCodeID="C93813">
                     <ich:ICHDefinition>The date on which the document is versioned.</ich:ICHDefinition>
@@ -1289,15 +1301,14 @@
                     <nciodm:PreferredTerm>Study Protocol Version Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="WHO/UTN Number" nciodm:ExtCodeID="C218689">
-                    <ich:ICHSynonym>Universal Trial Number</ich:ICHSynonym>
                     <ich:ICHDefinition>A sequence of characters used to identify a clinical trial, as assigned by the World Health Organisation&apos;s International Clinical Trial&apos;s Registry Platform (ICTRP).</ich:ICHDefinition>
                     <nciodm:PreferredTerm>WHO/UTN Number</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>ICH M11 Section Title Page Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>ICH M11 Section Title Page Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>ICH M11 Section Title Page Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section Title Page Data Element Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217282.Independent Committee Name Response Terminology" Name="Independent Committee Name Response Terminology" DataType="text" nciodm:ExtCodeID="C217282">
+            <CodeList OID="CL.C217282.Independent Committee Name Response Terminology" Name="Independent Committee Name Response Terminology" DataType="text" nciodm:ExtCodeID="C217282" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the independent committee name responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1318,15 +1329,14 @@
                     <nciodm:PreferredTerm>None</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Other" nciodm:ExtCodeID="C17649">
-                    <ich:ICHSynonym>Other</ich:ICHSynonym>
                     <ich:ICHDefinition>Different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Independent Committee Name Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Independent Committee Name Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Independent Committee Name Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Independent Committee Name Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217277.Intervention Model Response Terminology" Name="Intervention Model Response Terminology" DataType="text" nciodm:ExtCodeID="C217277">
+            <CodeList OID="CL.C217277.Intervention Model Response Terminology" Name="Intervention Model Response Terminology" DataType="text" nciodm:ExtCodeID="C217277" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the intervention model responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1339,7 +1349,6 @@
                     <nciodm:PreferredTerm>Factorial Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Other" nciodm:ExtCodeID="C17649">
-                    <ich:ICHSynonym>Other</ich:ICHSynonym>
                     <ich:ICHDefinition>Different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1355,15 +1364,15 @@
                     <ich:ICHDefinition>All trial participants are assigned to a single treatment group for the duration of the study.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Single Group Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Intervention Model Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Intervention Model Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Intervention Model Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Intervention Model Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217284.Intervention Type Response Terminology" Name="Intervention Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217284">
+            <CodeList OID="CL.C217284.Intervention Type Response Terminology" Name="Intervention Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217284" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the intervention type responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
-                <EnumeratedItem CodedValue="Behavioral" nciodm:ExtCodeID="C15184">
+                <EnumeratedItem CodedValue="Behavioural" nciodm:ExtCodeID="C15184">
                     <ich:ICHDefinition>A technique used to change the behavior of a participant (e.g., psychotherapy, lifestyle counseling, or hypnosis).</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Behavioral Intervention</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1375,12 +1384,7 @@
                     <ich:ICHDefinition>A product composed of two or more different types of medical products (i.e., a combination of a drug, device, and/or biological product with one another and are referred to as &quot;constituent parts&quot; of the combination product). (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Combination Product</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Device" nciodm:ExtCodeID="C16830">
-                    <ich:ICHSynonym>Medical Device</ich:ICHSynonym>
-                    <ich:ICHDefinition>Any instrument, apparatus, implement, machine, appliance, implant, reagent for in vitro use, software, material or other similar or related article, intended by the manufacturer to be used, alone or in combination for, one or more specific medical purpose(s). (CDISC Glossary)</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Medical Device</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="Diagnostic Test" nciodm:ExtCodeID="C18020">
+                <EnumeratedItem CodedValue="Diagnostic" nciodm:ExtCodeID="C18020">
                     <ich:ICHDefinition>Any procedure or test to diagnose a disease or disorder.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Diagnostic Procedure</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1393,17 +1397,18 @@
                     <nciodm:PreferredTerm>Pharmacologic Substance</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Genetic" nciodm:ExtCodeID="C15238">
-                    <ich:ICHSynonym>Gene Therapy</ich:ICHSynonym>
                     <ich:ICHDefinition>Introduction of genetic material into cells in order to correct or treat an inherited or acquired disease.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Gene Therapy</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="Medical Device" nciodm:ExtCodeID="C16830">
+                    <ich:ICHDefinition>Any instrument, apparatus, implement, machine, appliance, implant, reagent for in vitro use, software, material or other similar or related article, intended by the manufacturer to be used, alone or in combination for, one or more specific medical purpose(s). (CDISC Glossary)</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Medical Device</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Non-Surgical Procedure" nciodm:ExtCodeID="C218507">
                     <ich:ICHDefinition>A medical procedure that produces an effect, or that is intended to alter the course of a disease in a patient or population, which is not considered a surgical procedure.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Non-Surgical Procedure</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Radiation" nciodm:ExtCodeID="C15313">
-                    <ich:ICHSynonym>Radiation Therapy</ich:ICHSynonym>
-                    <ich:ICHSynonym>Radiotherapy</ich:ICHSynonym>
                     <ich:ICHDefinition>Use of targeted or whole body radiation to treat a disease.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Radiation Therapy</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -1415,11 +1420,11 @@
                     <ich:ICHDefinition>A medicinal product inducing immunity against disease, most often to prevent occurrence of a disease, (e.g., a preventative vaccine against infectious disease), but also to treat a disease, (e.g., a therapeutic vaccine against cancer). (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Vaccine</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Intervention Type Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Intervention Type Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Intervention Type Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Intervention Type Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217285.Intervention Use Response Terminology" Name="Intervention Use Response Terminology" DataType="text" nciodm:ExtCodeID="C217285">
+            <CodeList OID="CL.C217285.Intervention Use Response Terminology" Name="Intervention Use Response Terminology" DataType="text" nciodm:ExtCodeID="C217285" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the intervention use responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1428,7 +1433,7 @@
                     <nciodm:PreferredTerm>Additional Required Medicinal Product</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Background Treatment" nciodm:ExtCodeID="C165822">
-                    <ich:ICHDefinition>Medicinal products that are administered to each clinical trial participant, regardless of randomization group, a) to treat the indication which is the object of the study, or b) required in the protocol as part of standard care for a condition that is not the indication under investigation, and is relevant for the clinical trial design. (CDISC Glossary)</ich:ICHDefinition>
+                    <ich:ICHDefinition>Medicinal products that are administered to each clinical trial participant, regardless of randomisation group, a) to treat the indication which is the object of the study, or b) required in the protocol as part of standard care for a condition that is not the indication under investigation, and is relevant for the clinical trial design. (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Background Treatment</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Challenge Agent" nciodm:ExtCodeID="C158128">
@@ -1451,11 +1456,11 @@
                     <ich:ICHDefinition>Medicinal products identified in the protocol as those that may be administered to participants when the efficacy of the investigational medicinal product (IMP) is not satisfactory, the effect of the IMP is too great and is likely to cause a hazard to the patient, or to manage an emergency situation. (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Rescue Medications</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Intervention Use Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Intervention Use Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Intervention Use Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Intervention Use Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217052.Investigational Intervention Sourcing Response Terminology" Name="Investigational Intervention Sourcing Response Terminology" DataType="text" nciodm:ExtCodeID="C217052">
+            <CodeList OID="CL.C217052.Investigational Intervention Sourcing Response Terminology" Name="Investigational Intervention Sourcing Response Terminology" DataType="text" nciodm:ExtCodeID="C217052" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the sourcing value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1467,11 +1472,11 @@
                     <ich:ICHDefinition>An indication that the entity is obtained from a local source.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Locally Sourced Indicator</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Investigational Intervention Sourcing Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Investigational Intervention Sourcing Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Investigational Intervention Sourcing Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Sourcing Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217286.Investigational Medicinal Product Indicator Response Terminology" Name="Investigational Medicinal Product Indicator Response Terminology" DataType="text" nciodm:ExtCodeID="C217286">
+            <CodeList OID="CL.C217286.Investigational Medicinal Product Indicator Response Terminology" Name="Investigational Medicinal Product Indicator Response Terminology" DataType="text" nciodm:ExtCodeID="C217286" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the investigational medicinal product indicator responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1483,29 +1488,27 @@
                     <ich:ICHDefinition>A medicinal product that is related to the specific needs of the clinical trial as described in the protocol, but not as an investigational medicinal product. (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Auxiliary Medicinal Product</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Investigational Medicinal Product Indicator Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Investigational Medicinal Product Indicator Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Investigational Medicinal Product Indicator Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Investigational Medicinal Product Indicator Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217046.No Yes Response Terminology" Name="No Yes Response Terminology" DataType="text" nciodm:ExtCodeID="C217046">
+            <CodeList OID="CL.C217046.No Yes Response Terminology" Name="No Yes Response Terminology" DataType="text" nciodm:ExtCodeID="C217046" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the no yes value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="No" nciodm:ExtCodeID="C49487">
-                    <ich:ICHSynonym>N</ich:ICHSynonym>
                     <ich:ICHDefinition>The non-affirmative response to a question.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>No</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Yes" nciodm:ExtCodeID="C49488">
-                    <ich:ICHSynonym>Y</ich:ICHSynonym>
                     <ich:ICHDefinition>The affirmative response to a question.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Yes</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>No Yes Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>No Yes Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>No Yes Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 No Yes Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217278.Population Type Response Terminology" Name="Population Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217278">
+            <CodeList OID="CL.C217278.Population Type Response Terminology" Name="Population Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217278" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the population type responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1517,11 +1520,11 @@
                     <ich:ICHDefinition>An indication that the individual or group of individuals has not been diagnosed with the disease of interest or under study.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Without Disease</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Population Type Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Population Type Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Population Type Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Population Type Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217272.Protocol Section Name and Number Response Terminology" Name="Protocol Section Name and Number Response Terminology" DataType="text" nciodm:ExtCodeID="C217272">
+            <CodeList OID="CL.C217272.Protocol Section Name and Number Response Terminology" Name="Protocol Section Name and Number Response Terminology" DataType="text" nciodm:ExtCodeID="C217272" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the protocol section name and number responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -1709,9 +1712,9 @@
                     <ich:ICHDefinition>Section 11.8 of the ICH M11 Protocol standard, Data Protection.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>ICH M11 Protocol Section 11.8 Data Protection</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="11.9 Source Data" nciodm:ExtCodeID="C218662">
-                    <ich:ICHDefinition>Section 11.9 of the ICH M11 Protocol standard, Source Data.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>ICH M11 Protocol Section 11.9 Source Data</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="11.9 Source Records" nciodm:ExtCodeID="C218662">
+                    <ich:ICHDefinition>Section 11.9 of the ICH M11 Protocol standard, Source Records.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>ICH M11 Protocol Section 11.9 Source Records</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="12 APPENDIX: SUPPORTING DETAILS" nciodm:ExtCodeID="C218666">
                     <ich:ICHDefinition>Section 12 of the ICH M11 Protocol standard, APPENDIX: SUPPORTING DETAILS.</ich:ICHDefinition>
@@ -2069,9 +2072,9 @@
                     <ich:ICHDefinition>Section 8.6 of the ICH M11 Protocol standard, Biomarkers.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>ICH M11 Protocol Section 8.6 Biomarkers</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="8.6.1 Genetics and Pharmacogenomics" nciodm:ExtCodeID="C218603">
-                    <ich:ICHDefinition>Section 8.6.1 of the ICH M11 Protocol standard, Genetics and Pharmacogenomics.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>ICH M11 Protocol Section 8.6.1 Genetics and Pharmacogenomics</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="8.6.1 Genetics, Genomics, Pharmacogenetics and Pharmacogenomics" nciodm:ExtCodeID="C218603">
+                    <ich:ICHDefinition>Section 8.6.1 of the ICH M11 Protocol standard, Genetics, Genomics, Pharmacogenetics and Pharmacogenomics.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>ICH M11 Protocol Section 8.6.1 Genetics, Genomics, Pharmacogenetics and Pharmacogenomics</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="8.6.2 Pharmacodynamic Biomarkers" nciodm:ExtCodeID="C218604">
                     <ich:ICHDefinition>Section 8.6.2 of the ICH M11 Protocol standard, Pharmacodynamic Biomarkers.</ich:ICHDefinition>
@@ -2109,9 +2112,9 @@
                     <ich:ICHDefinition>Section 9.1.3 of the ICH M11 Protocol standard, Definitions of Product Complaints.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>ICH M11 Protocol Section 9.1.3 Definitions of Product Complaints</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="9.1.3.1 Definition of Medical Device Product Complaints" nciodm:ExtCodeID="C218613">
-                    <ich:ICHDefinition>Section 9.1.3.1 of the ICH M11 Protocol standard, Definition of Medical Device Product Complaints.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>ICH M11 Protocol Section 9.1.3.1 Definition of Medical Device Product Complaints</nciodm:PreferredTerm>
+                <EnumeratedItem CodedValue="9.1.3.1 Definitions of Medical Device Product Complaints" nciodm:ExtCodeID="C218613">
+                    <ich:ICHDefinition>Section 9.1.3.1 of the ICH M11 Protocol standard, Definitions of Medical Device Product Complaints.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>ICH M11 Protocol Section 9.1.3.1 Definitions of Medical Device Product Complaints</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="9.2 Timing and Procedures for Collection and Reporting" nciodm:ExtCodeID="C218614">
                     <ich:ICHDefinition>Section 9.2 of the ICH M11 Protocol standard, Timing and Procedures for Collection and Reporting.</ich:ICHDefinition>
@@ -2157,11 +2160,19 @@
                     <ich:ICHDefinition>Section 9.4 of the ICH M11 Protocol standard, Special Safety Situations.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>ICH M11 Protocol Section 9.4 Special Safety Situations</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Protocol Section Name and Number Response Terminology</ich:ICHSubmissionValue>
+                <EnumeratedItem CodedValue="Amendment Details" nciodm:ExtCodeID="C222770">
+                    <ich:ICHDefinition>Amendment Details Section of the ICH M11 Protocol standard, Amendment Details.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>ICH M11 Protocol Section Amendment Details</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="Title Page" nciodm:ExtCodeID="C222769">
+                    <ich:ICHDefinition>Title Page Section of the ICH M11 Protocol standard, Title Page.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>ICH M11 Protocol Section Title Page</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <ich:ICHPreferredTerm>Protocol Section Name and Number Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Protocol Section Name and Number Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Protocol Section Name and Number Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217276.Reason for Amendment Response Terminology" Name="Reason for Amendment Response Terminology" DataType="text" nciodm:ExtCodeID="C217276">
+            <CodeList OID="CL.C217276.Reason for Amendment Response Terminology" Name="Reason for Amendment Response Terminology" DataType="text" nciodm:ExtCodeID="C217276" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the reason for amendment responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -2210,7 +2221,6 @@
                     <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Other" nciodm:ExtCodeID="C17649">
-                    <ich:ICHSynonym>Other</ich:ICHSynonym>
                     <ich:ICHDefinition>Different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -2226,32 +2236,15 @@
                     <ich:ICHDefinition>A regulatory agency has expressed a need for a change(s) to, or formal clarification of, the protocol.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Regulatory Agency Request to Amend Amendment Reason</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Reason for Amendment Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Reason for Amendment Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Reason for Amendment Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Reason for Amendment Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217273.Sponsor Approval Date Response Terminology" Name="Sponsor Approval Date Response Terminology" DataType="text" nciodm:ExtCodeID="C217273">
-                <Description>
-                    <TranslatedText xml:lang="en">A valid value set relevant to the sponsor approval date responses within the ICH M11 protocol template.</TranslatedText>
-                </Description>
-                <EnumeratedItem CodedValue="Location of Sponsor Approval Date" nciodm:ExtCodeID="C218484">
-                    <ich:ICHDefinition>The physical or virtual location of the date on which the sponsor approved the current version of the protocol.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Location of Sponsor Approval Date</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="Sponsor Approval Date" nciodm:ExtCodeID="C132352">
-                    <ich:ICHDefinition>The date that the sponsor approved the current version of the protocol.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Protocol Approval by Sponsor Date</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <ich:ICHSubmissionValue>Sponsor Approval Date Response Terminology</ich:ICHSubmissionValue>
-                <ich:ICHSynonym>Sponsor Approval Date Response Terminology</ich:ICHSynonym>
-                <nciodm:PreferredTerm>ICH M11 Sponsor Approval Date Value Set Terminology</nciodm:PreferredTerm>
-            </CodeList>
-            <CodeList OID="CL.C217283.Trial Arm Type Response Terminology" Name="Trial Arm Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217283">
+            <CodeList OID="CL.C217283.Trial Arm Type Response Terminology" Name="Trial Arm Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217283" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the trial arm type responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Active Comparator Arm" nciodm:ExtCodeID="C174267">
-                    <ich:ICHSynonym>Active Comparator Arm</ich:ICHSynonym>
                     <ich:ICHDefinition>An arm describing the active comparator.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Active Comparator Arm</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -2260,36 +2253,30 @@
                     <nciodm:PreferredTerm>Control Arm</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Experimental Arm" nciodm:ExtCodeID="C174266">
-                    <ich:ICHSynonym>Investigational Arm</ich:ICHSynonym>
-                    <ich:ICHSynonym>Treatment Arm</ich:ICHSynonym>
                     <ich:ICHDefinition>An arm describing the intervention or treatment plan for a group of participants in the study receiving test product(s).</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Investigational Arm</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="No Intervention Arm" nciodm:ExtCodeID="C174270">
-                    <ich:ICHSynonym>No Intervention Arm</ich:ICHSynonym>
                     <ich:ICHDefinition>A study arm without an intervention or treatment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>No Intervention Arm</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Placebo Comparator Arm" nciodm:ExtCodeID="C174268">
-                    <ich:ICHSynonym>Placebo Control Arm</ich:ICHSynonym>
                     <ich:ICHDefinition>An arm describing the placebo comparator.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Placebo Control Arm</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sham Comparator Arm" nciodm:ExtCodeID="C174269">
-                    <ich:ICHSynonym>Sham Intervention Arm</ich:ICHSynonym>
                     <ich:ICHDefinition>An arm describing the sham comparator.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Sham Comparator Arm</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Arm Type Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Arm Type Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Arm Type Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Arm Type Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217281.Trial Blinding Role Response Terminology" Name="Trial Blinding Role Response Terminology" DataType="text" nciodm:ExtCodeID="C217281">
+            <CodeList OID="CL.C217281.Trial Blinding Role Response Terminology" Name="Trial Blinding Role Response Terminology" DataType="text" nciodm:ExtCodeID="C217281" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the trial blinding role responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Care Provider" nciodm:ExtCodeID="C17445">
-                    <ich:ICHSynonym>Carer</ich:ICHSynonym>
                     <ich:ICHDefinition>The primary person in charge of the care of a patient, usually a family member or a designated health care professional.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Caregiver</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -2302,7 +2289,7 @@
                     <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Outcomes Assessor" nciodm:ExtCodeID="C207599">
-                    <ich:ICHDefinition>The individual who evaluates the outcome(s) of interest. (CDISC)</ich:ICHDefinition>
+                    <ich:ICHDefinition>The individual who evaluates the outcome(s) of interest.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Outcomes Assessor</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Participant" nciodm:ExtCodeID="C142710">
@@ -2310,20 +2297,18 @@
                     <nciodm:PreferredTerm>Study Participant</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Sponsor" nciodm:ExtCodeID="C70793">
-                    <ich:ICHDefinition>The literal identifier (i.e., distinctive designation) of the trial sponsor.</ich:ICHDefinition>
+                    <ich:ICHDefinition>An individual, company, institution, or organization that takes responsibility for the initiation, management, and/or financing of a clinical study. (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Clinical Study Sponsor</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Blinding Role Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Blinding Role Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Blinding Role Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Blinding Role Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217051.Trial Blinding Schema Response Terminology" Name="Trial Blinding Schema Response Terminology" DataType="text" nciodm:ExtCodeID="C217051">
+            <CodeList OID="CL.C217051.Trial Blinding Schema Response Terminology" Name="Trial Blinding Schema Response Terminology" DataType="text" nciodm:ExtCodeID="C217051" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the trial blind schema value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Double Blind" nciodm:ExtCodeID="C15228">
-                    <ich:ICHSynonym>Double Masked</ich:ICHSynonym>
-                    <ich:ICHSynonym>Double-Masked</ich:ICHSynonym>
                     <ich:ICHDefinition>A study in which neither the participant nor the study personnel interacting with the participant or data during the study knows what intervention a participant is receiving.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Double Blind Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -2336,105 +2321,86 @@
                     <nciodm:PreferredTerm>Open Label Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Single Blind" nciodm:ExtCodeID="C28233">
-                    <ich:ICHSynonym>Single Masked</ich:ICHSynonym>
-                    <ich:ICHSynonym>Single-Masked</ich:ICHSynonym>
                     <ich:ICHDefinition>A study in which one party, either the participant or study personnel, does not know which intervention is administered to the participant.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Single Blind Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Blinding Schema Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Blinding Schema Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Blinding Schema Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Blind Schema Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217280.Trial Intervention Assignment Method Response Terminology" Name="Trial Intervention Assignment Method Response Terminology" DataType="text" nciodm:ExtCodeID="C217280">
+            <CodeList OID="CL.C217280.Trial Intervention Assignment Method Response Terminology" Name="Trial Intervention Assignment Method Response Terminology" DataType="text" nciodm:ExtCodeID="C217280" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the trial intervention assignment method responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
+                <EnumeratedItem CodedValue="No Intervention Assignment Method" nciodm:ExtCodeID="C222801">
+                    <ich:ICHDefinition>No specific methodology is used to assign trial participants to treatment or control groups.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>No Intervention Assignment Method</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="Other" nciodm:ExtCodeID="C17649">
+                    <ich:ICHDefinition>Different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Randomisation" nciodm:ExtCodeID="C25196">
                     <ich:ICHDefinition>The process of assigning trial participants to treatment or control groups using an element of chance to determine the assignments in order to reduce bias. (CDISC Glossary)</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Randomization</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Stratification" nciodm:ExtCodeID="C25689">
-                    <ich:ICHDefinition>Grouping defined by important prognostic factors measured at baseline.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Stratification</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="Stratified Randomisation" nciodm:ExtCodeID="C147145">
-                    <ich:ICHDefinition>The process of grouping trial participants into strata according to important prognostic factors and then assigning participants within each stratum to different treatment or control groups using an element of chance and in order to reduce bias.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Stratified Randomization</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Intervention Assignment Method Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Intervention Assignment Method Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Intervention Assignment Method Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Intervention Assignment Method Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217045.Trial Phase Response Terminology" Name="Trial Phase Response Terminology" DataType="text" nciodm:ExtCodeID="C217045">
+            <CodeList OID="CL.C217045.Trial Phase Response Terminology" Name="Trial Phase Response Terminology" DataType="text" nciodm:ExtCodeID="C217045" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the trial phase value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Early Phase 1" nciodm:ExtCodeID="C54721">
-                    <ich:ICHSynonym>Early Trial Phase 1</ich:ICHSynonym>
-                    <ich:ICHDefinition>First-in-human trials, in a small number of participants, that are conducted before Phase 1 trials and are intended to assess new candidate therapeutic and imaging agents. The study agent is administered at a low dose for a limited time, and there is no therapeutic or diagnostic intent.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Phase 0 Trial</nciodm:PreferredTerm>
+                    <ich:ICHDefinition>Exploratory clinical trials, in a small number of participants, that are conducted early in Phase 1. The investigational trial intervention is administered at a low dose for a limited time. Early Phase 1 trials provide insights into a variety of parameters such as pharmacokinetic, pharmacodynamic, and other biomarkers. They involve limited human exposure, have no therapeutic or diagnostic intent, and are not intended to assess clinical tolerability.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Early Phase 1 Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 1" nciodm:ExtCodeID="C15600">
-                    <ich:ICHSynonym>1</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 1</ich:ICHSynonym>
-                    <ich:ICHDefinition>The initial administration of an investigational medicinal product (IMP) into humans in order to examine clinical tolerability and therapeutic intent. Phase 1 trials are typically closely monitored and may be conducted in patients or healthy volunteer participants.</ich:ICHDefinition>
+                    <ich:ICHDefinition>Exploratory clinical trials that may be first-in-human, conducted in a small number of patients or healthy volunteers to evaluate clinical safety, tolerability, or therapeutic intent (pharmacokinetics and pharmacodynamics) of an investigational trial intervention.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase I Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 1/Phase 2" nciodm:ExtCodeID="C15693">
-                    <ich:ICHSynonym>1/2</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 1-2</ich:ICHSynonym>
-                    <ich:ICHDefinition>A clinical trial that combines elements characteristic of traditional Phase 1 and Phase 2 trials.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A single clinical trial that combines elements of Phase 1 and Phase 2 trials, which may begin as a Phase 1 trial and transition into Phase 2 based upon predetermined criteria.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase I/II Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 1/Phase 2/Phase 3" nciodm:ExtCodeID="C198366">
-                    <ich:ICHSynonym>1/2/3</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 1/2/3</ich:ICHSynonym>
-                    <ich:ICHDefinition>A clinical trial that begins as a Phase 1 trial and transitions into Phases 2 and 3 based upon successful completion of a milestone that enables transition.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A single clinical trial that combines elements of Phase 1, Phase 2, and Phase 3 trials, which may begin as a Phase 1 trial and transitions through Phase 2 and Phase 3 based upon predetermined criteria.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase I/II/III Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 1/Phase 3" nciodm:ExtCodeID="C198367">
-                    <ich:ICHSynonym>1/3</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 1/3</ich:ICHSynonym>
-                    <ich:ICHDefinition>A clinical trial that begins as a Phase 1 trial and transitions into a Phase 3 trial based upon successful completion of a milestone that enables transition.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A single clinical trial that combines elements of Phase 1 and Phase 3 trials, which may begin as a Phase 1 trial and transition into Phase 3 based upon predetermined criteria.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase I/III Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 2" nciodm:ExtCodeID="C15601">
-                    <ich:ICHSynonym>2</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 2</ich:ICHSynonym>
-                    <ich:ICHDefinition>Exploratory trials conducted to evaluate the safety and efficacy of the investigational intervention in patients with the disease or condition. Objectives can be clinical pharmacology, dose-ranging (dose-response, frequency of dosing), type of patients, or numerous other characteristics of safety and efficacy.</ich:ICHDefinition>
+                    <ich:ICHDefinition>Exploratory trials conducted to evaluate the safety and efficacy of the investigational trial intervention in patients with the disease or condition. Objectives may include, but are not limited to, clinical pharmacology, dose-ranging (dose-response, frequency of dosing), type of patients, or other characteristics of safety and efficacy.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase II Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 2/Phase 3" nciodm:ExtCodeID="C15694">
-                    <ich:ICHSynonym>2/3</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 2-3</ich:ICHSynonym>
-                    <ich:ICHDefinition>A clinical trial that combines elements characteristic of traditional Phase 2 and Phase 3 trials.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A single clinical trial that combines elements of Phase 2 and Phase 3 trials, which may begin as a Phase 2 trial and transition into Phase 3 based upon predetermined criteria.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase II/III Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 2/Phase 3/Phase 4" nciodm:ExtCodeID="C217024">
-                    <ich:ICHDefinition>A clinical trial that begins as a Phase 2 trial and transitions into Phases 3 and 4 based upon successful completion of a milestone that enables transition.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A single clinical trial that combines elements of Phase 2, Phase 3, and Phase 4 trials, which may begin as a Phase 2 trial and transitions through Phase 3 and Phase 4 based upon predetermined criteria.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase II/III/IV Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 3" nciodm:ExtCodeID="C15602">
-                    <ich:ICHSynonym>3</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 3</ich:ICHSynonym>
-                    <ich:ICHDefinition>Confirmatory trials conducted to demonstrate safety, efficacy and tolerability of the intervention in patients with the disease or condition. Their objectives are to evaluate the overall benefit-risk relationship and to provide substantial evidence for regulatory approval and labeling.</ich:ICHDefinition>
+                    <ich:ICHDefinition>Confirmatory trials conducted to demonstrate safety, efficacy and tolerability of the investigational trial intervention in patients with the disease or condition. Their objectives are to evaluate the overall benefit-risk relationship and may provide substantial evidence for regulatory approval and product information.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase III Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 3/Phase 4" nciodm:ExtCodeID="C217025">
-                    <ich:ICHDefinition>A clinical trial that combines elements characteristic of traditional Phase 3 and Phase 4 trials.</ich:ICHDefinition>
+                    <ich:ICHDefinition>A single clinical trial that combines elements of Phase 3 and Phase 4 trials, which may begin as a Phase 3 trial and transition into Phase 4 based upon predetermined criteria.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase III/IV Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Phase 4" nciodm:ExtCodeID="C15603">
-                    <ich:ICHSynonym>4</ich:ICHSynonym>
-                    <ich:ICHSynonym>Trial Phase 4</ich:ICHSynonym>
-                    <ich:ICHDefinition>Post-approval trials conducted to further understand the safety and efficacy of the drug in its approved indication. They are not considered necessary for approval but are often important for optimising the drug&apos;s use.</ich:ICHDefinition>
+                    <ich:ICHDefinition>Post-approval (or post-marketing) trials conducted to further evaluate the safety and efficacy of an investigational trial intervention in its approved indication and may be conducted to address a regulatory requirement. These studies may explore use of the investigational trial intervention in the real-world setting of clinical practice and may also inform health economics and health technology assessments.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Phase IV Trial</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Phase Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Phase Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Phase Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Phase Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217049.Trial Site Distribution Response Terminology" Name="Trial Site Distribution Response Terminology" DataType="text" nciodm:ExtCodeID="C217049">
+            <CodeList OID="CL.C217049.Trial Site Distribution Response Terminology" Name="Trial Site Distribution Response Terminology" DataType="text" nciodm:ExtCodeID="C217049" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the site distribution value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -2446,11 +2412,11 @@
                     <ich:ICHDefinition>A clinical trial that is conducted at a single site.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Single-Center Study</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Site Distribution Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Site Distribution Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Site Distribution Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Site Distribution Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217050.Trial Site Geographic Scope Response Terminology" Name="Trial Site Geographic Scope Response Terminology" DataType="text" nciodm:ExtCodeID="C217050">
+            <CodeList OID="CL.C217050.Trial Site Geographic Scope Response Terminology" Name="Trial Site Geographic Scope Response Terminology" DataType="text" nciodm:ExtCodeID="C217050" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the site geographic scope value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
@@ -2462,33 +2428,33 @@
                     <ich:ICHDefinition>Of, or pertaining to, an occurrence in one country.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Single Country</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial Site Geographic Scope Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial Site Geographic Scope Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial Site Geographic Scope Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial Site Geographic Scope Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217287.Trial-Related Safety Event Type Response Terminology" Name="Trial-Related Safety Event Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217287">
+            <CodeList OID="CL.C217287.Trial-Related Safety Event Type Response Terminology" Name="Trial-Related Safety Event Type Response Terminology" DataType="text" nciodm:ExtCodeID="C217287" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">A valid value set relevant to the trial-related safety event type responses within the ICH M11 protocol template.</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="Adverse Event" nciodm:ExtCodeID="C41331">
-                    <ich:ICHSynonym>Adverse Experience</ich:ICHSynonym>
-                    <ich:ICHSynonym>AE</ich:ICHSynonym>
                     <ich:ICHDefinition>Any untoward medical occurrence in a patient or clinical investigation participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with this treatment.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Adverse Event</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="Drug/Device Combination Product Complaint" nciodm:ExtCodeID="C222331">
+                    <ich:ICHDefinition>Any concern about the safety, quality, and/or performance of a trial-related drug-device combination.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Drug-Device Combination Product Complaint</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Lactation Event" nciodm:ExtCodeID="C218510">
                     <ich:ICHDefinition>Any event that occurs when the participant is lactating.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Lactation Event</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="Medical Device Product Complaint" nciodm:ExtCodeID="C54026">
-                    <ich:ICHSynonym>MD PC</ich:ICHSynonym>
-                    <ich:ICHDefinition>Any concern about the safety, quality, and/or performance of a trial-related drug-device combination.</ich:ICHDefinition>
-                    <nciodm:PreferredTerm>Device Problem</nciodm:PreferredTerm>
-                </EnumeratedItem>
                 <EnumeratedItem CodedValue="Not Reportable Adverse Event of Special Interest" nciodm:ExtCodeID="C218513">
-                    <ich:ICHSynonym>Not Reportable AESI</ich:ICHSynonym>
                     <ich:ICHDefinition>An adverse event of special interest (serious or non-serious) is one of scientific and medical concern specific to the sponsor&apos;s product or program, for which ongoing monitoring and rapid communication by the investigator to the sponsor could be appropriate, and which is deemed to be not reportable to the appropriate regulatory authority.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Not Reportable Adverse Event of Special Interest</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="Other" nciodm:ExtCodeID="C17649">
+                    <ich:ICHDefinition>Different than the one(s) previously specified or mentioned.</ich:ICHDefinition>
+                    <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Post-Partum Event" nciodm:ExtCodeID="C218511">
                     <ich:ICHDefinition>Any event that occurs when the participant is in the stages of recovery post pregnancy and birth event.</ich:ICHDefinition>
@@ -2499,54 +2465,46 @@
                     <nciodm:PreferredTerm>Pregnancy Event</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Reportable Adverse Event of Special Interest" nciodm:ExtCodeID="C218512">
-                    <ich:ICHSynonym>Reportable AESI</ich:ICHSynonym>
                     <ich:ICHDefinition>An adverse event of special interest (serious or non-serious) is one of scientific and medical concern specific to the sponsor&apos;s product or program, for which ongoing monitoring and rapid communication by the investigator to the sponsor could be appropriate, and which is deemed to be reportable to the appropriate regulatory authority.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Reportable Adverse Event of Special Interest</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Serious Adverse Event" nciodm:ExtCodeID="C41335">
-                    <ich:ICHSynonym>SAE</ich:ICHSynonym>
-                    <ich:ICHDefinition>Any untoward medical occurrence that at any dose: results in death, is life-threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant disability/incapacity, is a congenital anomaly/birth defect, or any other medically significant event that may not be immediately life-threatening or result in death or hospitalisation but may jeopardise the patient or may require intervention to prevent one of the other outcomes listed in the definition.</ich:ICHDefinition>
+                    <ich:ICHDefinition>Any untoward medical occurrence that at any dose: results in death, is life-threatening, requires inpatient hospitalisation or prolongation of existing hospitalisation, results in persistent or significant disability/incapacity, is a congenital anomaly/birth defect, or any other medically significant event that may not be immediately life-threatening or result in death or hospitalisation but may jeopardise the patient or may require intervention to prevent one of the other outcomes listed in the definition.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Serious Adverse Event</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="Trial Intervention Complaint" nciodm:ExtCodeID="C218508">
                     <ich:ICHDefinition>Any concern about the safety and/or quality of any trial-related interventions.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Trial Intervention Complaint</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Trial-Related Safety Event Type Response Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Trial-Related Safety Event Type Response Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Trial-Related Safety Event Type Response Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Trial-Related Safety Event Type Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>
-            <CodeList OID="CL.C217048.Unit of Measure Terminology" Name="Unit of Measure Terminology" DataType="text" nciodm:ExtCodeID="C217048">
+            <CodeList OID="CL.C217048.Unit of Measure Terminology" Name="Unit of Measure Terminology" DataType="text" nciodm:ExtCodeID="C217048" nciodm:CodeListExtensible="No">
                 <Description>
                     <TranslatedText xml:lang="en">Terminology associated with the units of measure value set codelist of the ICH M11 protocol template.</TranslatedText>
                 </Description>
-                <EnumeratedItem CodedValue="DAYS" nciodm:ExtCodeID="C25301">
+                <EnumeratedItem CodedValue="Days" nciodm:ExtCodeID="C25301">
                     <ich:ICHDefinition>A unit of measurement of time equal to 24 hours.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Day</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="HOURS" nciodm:ExtCodeID="C25529">
-                    <ich:ICHSynonym>h</ich:ICHSynonym>
-                    <ich:ICHSynonym>Hours</ich:ICHSynonym>
-                    <ich:ICHSynonym>hr</ich:ICHSynonym>
+                <EnumeratedItem CodedValue="Hours" nciodm:ExtCodeID="C25529">
                     <ich:ICHDefinition>A unit of measurement of time equal to 60 minutes.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Hour</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="MONTHS" nciodm:ExtCodeID="C29846">
-                    <ich:ICHSynonym>Month</ich:ICHSynonym>
+                <EnumeratedItem CodedValue="Months" nciodm:ExtCodeID="C29846">
                     <ich:ICHDefinition>One of the 12 divisions of a year as determined by a calendar. It corresponds to the unit of time of approximately to one cycle of the moon&apos;s phases, about 30 days or 4 weeks.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Month</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="WEEKS" nciodm:ExtCodeID="C29844">
-                    <ich:ICHSynonym>Week</ich:ICHSynonym>
+                <EnumeratedItem CodedValue="Weeks" nciodm:ExtCodeID="C29844">
                     <ich:ICHDefinition>Any period of seven consecutive days.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Week</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="YEARS" nciodm:ExtCodeID="C29848">
-                    <ich:ICHSynonym>Year</ich:ICHSynonym>
+                <EnumeratedItem CodedValue="Years" nciodm:ExtCodeID="C29848">
                     <ich:ICHDefinition>The period of time that it takes for Earth to make a complete revolution around the sun, approximately 365 days; a specific one year period.</ich:ICHDefinition>
                     <nciodm:PreferredTerm>Year</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <ich:ICHSubmissionValue>Unit of Measure Terminology</ich:ICHSubmissionValue>
+                <ich:ICHPreferredTerm>Unit of Measure Terminology</ich:ICHPreferredTerm>
                 <ich:ICHSynonym>Unit of Measure Terminology</ich:ICHSynonym>
                 <nciodm:PreferredTerm>ICH M11 Units of Measure Value Set Terminology</nciodm:PreferredTerm>
             </CodeList>

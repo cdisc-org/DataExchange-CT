@@ -14,6 +14,7 @@
 
     <xs:element name="ICHDefinition" type="ich:ICHsimpleTypeDefinition-ICHDefinition" />
     <xs:element name="ICHSubmissionValue" type="ich:ICHsimpleTypeDefinition-ICHSubmissionValue" />
+    <xs:element name="ICHPreferredTerm" type="ich:ICHsimpleTypeDefinition-ICHPreferredTerm" />
     <xs:element name="ICHSynonym" type="ich:ICHsimpleTypeDefinition-ICHSynonym" />
     
 
@@ -22,6 +23,10 @@
     </xs:simpleType>
     
     <xs:simpleType name="ICHsimpleTypeDefinition-ICHSubmissionValue">
+        <xs:restriction base="odm:text" />
+    </xs:simpleType>
+    
+    <xs:simpleType name="ICHsimpleTypeDefinition-ICHPreferredTerm">
         <xs:restriction base="odm:text" />
     </xs:simpleType>
     
